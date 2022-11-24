@@ -27,8 +27,8 @@
                     "type": "domain-name"
                 },
                 "2": {
-                    "value": "CC:46:D6:44:a2:ed",
-                    "type": "mac-addr"
+                    "hostname": "SERVER01",
+                    "type": "x-oca-asset"
                 },
                 "3": {
                     "value": "https://iser-wron.tg/5gAmtp2/8TanCA89lw5r1/b07UOg4A/ysteresi-spe-procurin.esl",
@@ -39,9 +39,10 @@
                     "type": "user-account"
                 },
                 "5": {
-                    "name": "evise-awhil.ghs",
+                    "name": "SharpHound.exe",
                     "hashes": {
-                        "MD5": "9D30BA80ba15aEfBF19CA1DB6D8e46ac"
+                        "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
+			"SHA1": "9f595dc903e24c6a03ba95a701037b6532050667"
                     },
                     "type": "file"
                 }
