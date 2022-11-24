@@ -23,7 +23,7 @@
                     "type": "ipv4-addr"
                 },
                 "1": {
-                    "value": "ORG",
+                    "value": "AFP",
                     "type": "domain-name"
                 },
                 "2": {
