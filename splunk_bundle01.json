@@ -18,28 +18,31 @@
             "last_observed": "2031-08-27T15:49:50.000000Z",
             "created": "2022-11-25T06:50:18.702837",
             "modified": "2022-11-25T06:50:18.702837",
-            "objects": {
+           "objects": {
                 "0": {
-                    "value": "192.168.1.1",
+                    "value": "192.168.1.55",
                     "type": "ipv4-addr"
                 },
                 "1": {
-                    "value": "ORG",
+                    "value": "a-calculate.fashion",
                     "type": "domain-name"
                 },
                 "2": {
-                    "hostname": "SERVER01",
-                    "type": "x-oca-asset"
+                    "value": "CC:46:D6:44:a2:ed",
+                    "type": "mac-addr"
                 },
                 "3": {
-                    "user_id": "ORG\\SERVER01$",
-                    "type": "user-account"
+                    "value": "https://iser-wron.tg/5gAmtp2/8TanCA89lw5r1/b07UOg4A/ysteresi-spe-procurin.esl",
+                    "type": "url"
                 },
                 "4": {
-                    "name": "C:\\Images\\SharpHound.exe",
+                    "user_id": "pplie",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "evise-awhil.ghs",
                     "hashes": {
-                        "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
-                        "SHA1": "9f595dc903e24c6a03ba95a701037b6532050667"
+                        "MD5": "9D30BA80ba15aEfBF19CA1DB6D8e46ac"
                     },
                     "type": "file"
                 }
