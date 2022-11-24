@@ -3,22 +3,21 @@
     "spec_version": "2.0",
     "objects": [
         {
-            "name": "splunk",
-            "identity_class": "system",
+            "name": "Splunk",
+            "identity_class": "events",
             "type": "identity",
             "id": "identity--dceb2f46-ea97-449a-9254-9d1fc52c7e92",
-            "created": "2022-11-25T06:50:18.702837",
-            "modified": "2022-11-25T06:50:18.702837"
+            "created": "2021-09-09T10:06:15.000Z",
+            "modified": "2021-09-09T10:06:15.000Z"
         },
         {
             "id": "observed-data--848f74b3-ef2e-4b19-ad92-e16145216360",
             "number_observed": 1,
-            "created_by_ref": "identity--dceb2f46-ea97-449a-9254-9d1fc52c7e92",
-            "first_observed": "2022-11-25T06:50:18.702837",
+            "first_observed": "2021-09-09T10:13:15.000000Z",
             "last_observed": "2031-08-27T15:49:50.000000Z",
-            "created": "2022-11-25T06:50:18.702837",
-            "modified": "2022-11-25T06:50:18.702837",
-           "objects": {
+            "created": "2021-09-09T10:06:15.000Z",
+            "modified": "2021-09-09T10:06:15.000Z",
+            "objects": {
                 "0": {
                     "value": "192.168.1.55",
                     "type": "ipv4-addr"
@@ -43,6 +42,44 @@
                     "name": "evise-awhil.ghs",
                     "hashes": {
                         "MD5": "9D30BA80ba15aEfBF19CA1DB6D8e46ac"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--3ed41b31-12a6-45aa-b56c-3dbbc769f3ca",
+            "number_observed": 1,
+            "first_observed": "2021-09-09T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2021-09-09T10:06:15.000Z",
+            "modified": "2021-09-09T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.39",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "aterialist-minxe-creasin.clothing",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:73:3f:d0",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://tormie.hosting/mRe997T8C/8op29a/oroscope-amuse.w3g",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "aviar-implemen-lov",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "ncurabl-fun-floridl.brk",
+                    "hashes": {
+                        "ssdeep": "wXN5AGygPp/val+h/egtpKnSnuHtN5chqrVFtUeqOZUfFqwu+jBWvkJ8+FZw4En9fZqeinOe1tca1"
                     },
                     "type": "file"
                 }
