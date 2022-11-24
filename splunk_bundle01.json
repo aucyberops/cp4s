@@ -1,0 +1,54 @@
+{
+    "id": "bundle--ce116490-9ec4-4640-92db-2d0fdc91b581",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "name": "Splunk",
+            "identity_class": "events",
+            "type": "identity",
+            "id": "identity--dceb2f46-ea97-449a-9254-9d1fc52c7e92",
+            "created": "2022-11-25T06:50:18.702837",
+            "modified": "2022-11-25T06:50:18.702837"
+        },
+        {
+            "id": "observed-data--848f74b3-ef2e-4b19-ad92-e16145216360",
+            "number_observed": 1,
+            "first_observed": "2022-11-25T06:50:18.702837",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2022-11-25T06:50:18.702837",
+            "modified": "2022-11-25T06:50:18.702837",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.1",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "ORG",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "hostname": "SERVER01",
+                    "type": "x-oca-asset"
+                },
+                "3": {
+                    "name": "McAfee Endpoint Security",
+                    "type": "process"
+                },
+                "4": {
+                    "user_id": "ORG\SERVER01$",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "C:\Images\SharpHound.exe",
+                    "hashes": {
+                        "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
+                        "SHA1": "9f595dc903e24c6a03ba95a701037b6532050667"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        }
+    ],
+    "type": "bundle"
+}
