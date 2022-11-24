@@ -35,11 +35,11 @@
                     "type": "process"
                 },
                 "4": {
-                    "user_id": "ORG\SERVER01$",
+                    "user_id": "ORG\\SERVER01$",
                     "type": "user-account"
                 },
                 "5": {
-                    "name": "C:\Images\SharpHound.exe",
+                    "name": "C:\\Images\\SharpHound.exe",
                     "hashes": {
                         "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
                         "SHA1": "9f595dc903e24c6a03ba95a701037b6532050667"
