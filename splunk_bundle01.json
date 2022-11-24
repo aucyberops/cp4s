@@ -19,11 +19,11 @@
             "modified": "2021-09-09T10:06:15.000Z",
             "objects": {
                 "0": {
-                    "value": "192.168.1.55",
+                    "value": "192.168.1.1",
                     "type": "ipv4-addr"
                 },
                 "1": {
-                    "value": "a-calculate.fashion",
+                    "value": "ORG",
                     "type": "domain-name"
                 },
                 "2": {
@@ -35,7 +35,7 @@
                     "type": "url"
                 },
                 "4": {
-                    "user_id": "pplie",
+                    "user_id": "ORG\\SERVER01$",
                     "type": "user-account"
                 },
                 "5": {
