@@ -7,23 +7,23 @@
             "identity_class": "events",
             "type": "identity",
             "id": "identity--dceb2f46-ea97-449a-9254-9d1fc52c7e92",
-            "created": "2021-09-09T10:06:15.000Z",
-            "modified": "2021-09-09T10:06:15.000Z"
+            "created": "2022-11-25T12:00:18.000000Z",
+            "modified": "2022-11-25T12:00:18.000000Z"
         },
         {
             "id": "observed-data--848f74b3-ef2e-4b19-ad92-e16145216360",
             "number_observed": 1,
             "first_observed": "2022-11-25T12:00:18.000000Z",
-            "last_observed": "2031-08-27T15:49:50.000000Z",
-            "created": "2021-09-09T10:06:15.000Z",
-            "modified": "2021-09-09T10:06:15.000Z",
+            "last_observed": "2022-11-25T12:00:18.000000Z",
+            "created": "2022-11-25T12:00:18.000000Z",
+            "modified": "2022-11-25T12:00:18.000000Z",
             "objects": {
                 "0": {
                     "value": "192.168.1.1",
                     "type": "ipv4-addr"
                 },
                 "1": {
-                    "value": "AFP",
+                    "value": "AUCYBEROPS",
                     "type": "domain-name"
                 },
                 "2": {
@@ -31,22 +31,37 @@
                     "type": "x-oca-asset"
                 },
                 "3": {
-                    "value": "https://iser-wron.tg/5gAmtp2/8TanCA89lw5r1/b07UOg4A/ysteresi-spe-procurin.esl",
-                    "type": "url"
+                    "path": "C:\\Users\\user\\Desktop\\",
+                    "type": "directory"
                 },
                 "4": {
-                    "user_id": "SERVER01$",
+                    "user_id": "AUCYBEROPS\\SERVER01$",
                     "type": "user-account"
                 },
                 "5": {
                     "name": "SharpHound.exe",
+		    "parent_directory_ref": "3",
                     "hashes": {
                         "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
 			"SHA-1": "9f595dc903e24c6a03ba95a701037b6532050667",
 			"SHA-256": "f1c45cbbd98619e197154085a05fd972283af6788343aa04492e35798a06e2b7"
                     },
                     "type": "file"
-                }
+                },
+		"6": {
+		    "type": "process",
+		    "name": "MCAFEEEPO",
+		    "binary_ref": "5"
+		},
+		"x-splunk": {
+		    "event_id": "1027"
+		    "mitre_tactic_id": "TA0002"
+		    "mitre_tactic": "Command and Scripting Interpreter"
+		    "mitre_technique_id": "T1053"
+		    "mitre_technique": "Scheduled Task/Job"
+		    "event_name": "McAfee Endpoint Security Detected Trojan"
+		    
+		}
             },
             "type": "observed-data"
         },
