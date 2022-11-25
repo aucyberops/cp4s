@@ -54,7 +54,15 @@
 		    "binary_ref": "5"
 		}
 	    },
-	    "type": "observed-data"
+	    "type": "observed-data",
+	    "x-splunk": {
+		"event_id": "1027",
+		"mitre_tactic_id": "TA0002",
+		"mitre_tactic": "Command and Scripting Interpreter",
+		"mitre_technique_id": "T1053",
+		"mitre_technique": "Scheduled Task/Job",
+		"event_name": "McAfee Endpoint Security Detected Trojan"
+	    }
 	},
         {
             "id": "observed-data--3ed41b31-12a6-45aa-b56c-3dbbc769f3ca",
