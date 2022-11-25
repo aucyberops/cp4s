@@ -1,0 +1,238 @@
+{
+    "type": "bundle",
+    "id": "bundle--0474ebda-5e6e-4cc4-abd9-13195db0bd3a",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "azure_sentinel",
+            "identity_class": "events"
+        },
+        {
+            "id": "observed-data--7f275bee-96f8-4074-af75-d116506bd4d9",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-11-25T10:02:44.390Z",
+            "modified": "2022-11-25T10:02:44.390Z",
+            "objects": {
+                "0": {
+                    "type": "file",
+                    "name": "SharpHound.exe",
+                    "parent_directory_ref": "2",
+                    "hashes": {
+                        "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
+                        "SHA-1": "9f595dc903e24c6a03ba95a701037b6532050667",
+                        "SHA-256": "f1c45cbbd98619e197154085a05fd972283af6788343aa04492e35798a06e2b7"
+                    }
+                },
+                "1": {
+                    "type": "process",
+                    "name": "explorer.exe",
+                    "binary_ref": "0"
+                },
+                "2": {
+                    "type": "directory",
+                    "path": "C:\\Temp"
+                },
+                "3": {
+                    "type": "file",
+                    "name": "svchost.exe",
+                    "parent_directory_ref": "5"
+                },
+                "4": {
+                    "type": "process",
+                    "name": "svchost.exe",
+                    "parent_ref": "1",
+                    "binary_ref": "3"
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\windows\\system32"
+                },
+                "6": {
+                    "type": "user-account",
+                    "user_id": "AFP\\ServerUser"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.138.56.58"
+                },
+                "8": {
+                    "value": "stevmxxyy789.AFP",
+                    "type": "domain-name"
+                }
+            },     
+            "x_msazure_sentinel_alert": {
+                "id": "2518268485253060642_52b1a353-2fd8-4c45-8f8a-94db98dca29d",
+                "title": "Infected file detected",
+                "provider": "ePO",
+                "vendor": "McAfee",
+                "userStates": {
+                    "logonIp": "158.67.29.3",
+                    "aadUserId": "234982fdnsdfs09234"
+                },
+                "hostStates": {
+                    "os": "windows11",
+                    "privateIpAddress": "10.138.56.58"
+                }
+            },
+            "x_msazure_sentinel": {
+                "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
+                "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
+            },
+            "first_observed": "2022-11-25T09:37:54.6939357Z",
+            "last_observed": "2022-11-25T09:37:54.6939357Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--7f275bee-96e2-4074-53d5-d143206bd1234",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-11-25T03:23:44.390Z",
+            "modified": "2022-11-25T03:23:44.390Z",
+            "objects": {
+                "0": {
+                    "type": "file",
+                    "name": "42-passwordless.zip",
+                    "parent_directory_ref": "2",
+                    "hashes": {
+                        "SHA-256": "db6981082063dbb4bac89d27c41fbeb86d9e4a97b36661c0945b77a6b9bb0948"
+                    }
+                },
+                "1": {
+                    "type": "process",
+                    "name": "explorer.exe",
+                    "binary_ref": "0"
+                },
+                "2": {
+                    "type": "directory",
+                    "path": "C:\\Users\\user-01\\Downloads\\SecLists-master\\SecLists-master\\Payloads\\Zip-Bombs"
+                },
+                "3": {
+                    "type": "file",
+                    "name": "svchost.exe",
+                    "parent_directory_ref": "5"
+                },
+                "4": {
+                    "type": "process",
+                    "name": "svchost.exe",
+                    "parent_ref": "1",
+                    "binary_ref": "3"
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\windows\\system32"
+                },
+                "6": {
+                    "type": "user-account",
+                    "user_id": "null"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.138.45.25"
+                },
+                "8": {
+                    "value": "vmxyzz000",
+                    "type": "domain-name"
+                }
+            },     
+            "x_msazure_sentinel_alert": {
+                "id": "2518268485253060642_52b1a353-2fd8-fd56-8f8a-94db53dca29d",
+                "title": "Infected file detected",
+                "provider": "ePO",
+                "vendor": "McAfee",
+                "userStates": {
+                    "logonIp": "18.157.38.67",
+                    "aadUserId": "234982342fsc5dddfs09234"
+                },
+                "hostStates": {
+                    "os": "windows11",
+                    "privateIpAddress": "10.138.45.25"
+                }
+            },
+            "x_msazure_sentinel": {
+                "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
+                "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
+            },
+            "first_observed": "2022-11-25T09:37:54.6939357Z",
+            "last_observed": "2022-11-25T09:37:54.6939357Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--7f275bee-96f8-4074-af75-d116506b5678",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-11-25T10:03:42.390Z",
+            "modified": "2022-11-25T10:03:42.390Z",
+            "objects": {
+                "0": {
+                    "type": "file",
+                    "name": "SharpHound.exe",
+                    "parent_directory_ref": "2",
+                    "hashes": {
+                        "MD5": "71d6e59ee15e5b30d7ff1b561e683f45",
+                        "SHA-1": "9f595dc903e24c6a03ba95a701037b6532050667",
+                        "SHA-256": "f1c45cbbd98619e197154085a05fd972283af6788343aa04492e35798a06e2b7"
+                    }
+                },
+                "1": {
+                    "type": "process",
+                    "name": "explorer.exe",
+                    "binary_ref": "0"
+                },
+                "2": {
+                    "type": "directory",
+                    "path": "C:\\Images\\DfsrPrivate\\ConflictAndDeleted\\SharpHound-{F1BBFCEF-87FC-4423-8FFF-38838464D199}-v4377.zip"
+                },
+                "3": {
+                    "type": "file",
+                    "name": "svchost.exe",
+                    "parent_directory_ref": "5"
+                },
+                "4": {
+                    "type": "process",
+                    "name": "svchost.exe",
+                    "parent_ref": "1",
+                    "binary_ref": "3"
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\windows\\system32"
+                },
+                "6": {
+                    "type": "user-account",
+                    "user_id": "AFP\\HGFD01$"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.138.52.85"
+                },
+                "8": {
+                    "value": "HGFD01.AFP",
+                    "type": "domain-name"
+                }
+            },     
+            "x_msazure_sentinel_alert": {
+                "id": "2518268485253060642_52b1a353-2fd8-4c45-8f8a-94db98dca29d",
+                "title": "Infected file detected",
+                "provider": "ePO",
+                "vendor": "McAfee",
+                "userStates": {
+                    "logonIp": "16.57.98.70",
+                    "aadUserId": "23fe6aa342fsc5dddfs094"
+                },
+                "hostStates": {
+                    "os": "windows10",
+                    "privateIpAddress": "10.138.52.85"
+                }
+            },
+            "x_msazure_sentinel": {
+                "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
+                "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
+            },
+            "first_observed": "2022-11-25T04:37:54.6939357Z",
+            "last_observed": "2022-11-25T04:37:54.6939357Z",
+            "number_observed": 1
+        }
+    ]
+}
