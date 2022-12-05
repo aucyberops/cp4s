@@ -12,8 +12,8 @@
             "id": "observed-data--7f275bee-96f8-4074-af75-d116506bd4d9",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-            "created": "2022-11-25T10:02:44.390Z",
-            "modified": "2022-11-25T10:02:44.390Z",
+            "created": "",
+            "modified": "",
             "objects": {
                 "0": {
                     "type": "file",
@@ -80,16 +80,16 @@
                 "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
                 "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
             },
-            "first_observed": "2022-11-25T09:37:54.6939357Z",
-            "last_observed": "2022-11-25T09:37:54.6939357Z",
+            "first_observed": "",
+            "last_observed": "",
             "number_observed": 1
         },
         {
             "id": "observed-data--7f275bee-96e2-4074-53d5-d143206bd1234",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-            "created": "2022-11-25T03:23:44.390Z",
-            "modified": "2022-11-25T03:23:44.390Z",
+            "created": "",
+            "modified": "",
             "objects": {
                 "0": {
                     "type": "file",
@@ -154,16 +154,16 @@
                 "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
                 "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
             },
-            "first_observed": "2022-11-25T09:37:54.6939357Z",
-            "last_observed": "2022-11-25T09:37:54.6939357Z",
+            "first_observed": "",
+            "last_observed": "",
             "number_observed": 1
         },
         {
             "id": "observed-data--7f275bee-96f8-4074-af75-d116506b5678",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-            "created": "2022-11-25T10:03:42.390Z",
-            "modified": "2022-11-25T10:03:42.390Z",
+            "created": "",
+            "modified": "",
             "objects": {
                 "0": {
                     "type": "file",
@@ -230,8 +230,8 @@
                 "tenant_id": "b73e5ba8-34d5-495a-9901-06bdb84cf13e",
                 "subscription_id": "083de1fb-cd2d-4b7c-895a-2b5af1d091e8"
             },
-            "first_observed": "2022-11-25T04:37:54.6939357Z",
-            "last_observed": "2022-11-25T04:37:54.6939357Z",
+            "first_observed": "",
+            "last_observed": "",
             "number_observed": 1
         }
     ]

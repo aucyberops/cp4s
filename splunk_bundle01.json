@@ -7,16 +7,16 @@
             "identity_class": "events",
             "type": "identity",
             "id": "identity--dceb2f46-ea97-449a-9254-9d1fc52c7e92",
-            "created": "2022-11-25T12:00:18.000000Z",
-            "modified": "2022-11-25T12:00:18.000000Z"
+            "created": "",
+            "modified": ""
         },
         {
             "id": "observed-data--848f74b3-ef2e-4b19-ad92-e16145216360",
             "number_observed": 1,
-            "first_observed": "2022-11-25T12:00:18.000000Z",
-            "last_observed": "2022-11-25T12:00:18.000000Z",
-            "created": "2022-11-25T12:00:18.000000Z",
-            "modified": "2022-11-25T12:00:18.000000Z",
+            "first_observed": "",
+            "last_observed": "",
+            "created": "",
+            "modified": "",
             "objects": {
                 "0": {
                     "value": "192.168.1.1",
@@ -68,10 +68,10 @@
         {
             "id": "observed-data--3ed41b31-12a6-45aa-b56c-3dbbc769f3ca",
             "number_observed": 1,
-            "first_observed": "2022-11-25T12:00:18.000000Z",
-            "last_observed": "2031-08-27T15:49:50.000000Z",
-            "created": "2021-09-09T10:06:15.000Z",
-            "modified": "2021-09-09T10:06:15.000Z",
+            "first_observed": "",
+            "last_observed": "",
+            "created": "-1 days",
+            "modified": "-1 days",
             "objects": {
                 "0": {
                     "value": "192.168.1.39",
