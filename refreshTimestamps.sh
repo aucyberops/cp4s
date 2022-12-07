@@ -4,12 +4,12 @@
 # Jonathan Tomasulo - Cybersecurity Specialist
 
 stixDate=`date -v-1d '+%FT%T.000Z'` 
-echo "$currentDate"
+echo "$stixDate"
 echo "Update STIX Bundle Dates"
-#echo 'gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]+Z/$currentDate/g" *.json'
-gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]+Z/$currentDate/g" *.json
+#echo 'gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]+Z/$stixDate/g" *.json'
+gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]+Z/$stixDate/g" *.json
 
 epoDate=`date -v-1d '+%Y-%m-%d %H:%M:%S.0'` 
 echo "Update EPO Dates"
-#echo 'gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]/$avDate/g" av_alert.json'
+#echo 'gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]/$epoDate/g" av_alert.json'
 gsed -i -E "s/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]/$epoDate/g" av_alert.json
